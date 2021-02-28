@@ -1,5 +1,5 @@
 # Star_Wars_Generation
-An application of OpenAI's GPT-2 to the generation of Star Wars movie scripts.
+An application of OpenAI's GPT-2 to generate Star Wars movie scripts.
 
 The notebook is used to train the model on Google Colab. 
 

@@ -131,31 +131,11 @@ df_train, df_valid = train_test_split(df_full_train, train_size = train_valid_ra
 
 print(len(df_train), len(df_valid), len(df_test))
 
-test_data = [df_train[18][:1000]]
 
-
-new_train_data = data_augmentation(test_data)
-print(new_train_data[0])
-
-print()
-
-test_data = [df_train[2][:1000]]
-
-
-new_train_data = data_augmentation(test_data)
-print(new_train_data[0])
-
-
-
-
-
-#df_to_txt(new_train_data, 'star_wars_trans_train.txt')
-
-
-"""df_to_txt(df_train, 'star_wars_train.txt')
+df_to_txt(df_train, 'star_wars_train.txt')
 df_to_txt(df_valid, 'star_wars_valid.txt')
 df_to_txt(df_test, 'star_wars_test.txt')
-df_to_txt(df_full_train, 'star_wars_full_train.txt')"""
+df_to_txt(df_full_train, 'star_wars_full_train.txt')
 
 
 
